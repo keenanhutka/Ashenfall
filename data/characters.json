@@ -1,0 +1,65 @@
+{
+  "version": "0.01",
+  "stat_scale": { "core": "1-10", "beauty": "1-7", "body_type": "1-10" },
+  "player_default": {
+    "age": 18,
+    "status": "free",
+    "strength": 6, "agility": 6, "intelligence": 6, "charisma": 7, "endurance": 6,
+    "beauty": 5, "body_type": 5
+  },
+  "household": [
+    {
+      "id": "eadgyth", "name": "Eadgyth", "role": "mother", "age": 45, "status": "free",
+      "strength": 4, "agility": 4, "intelligence": 7, "charisma": 6, "endurance": 5,
+      "loyalty": 9, "beauty": 4, "body_type": 4,
+      "notes": "Hall, food, sense. Poor ranging."
+    },
+    {
+      "id": "eadric", "name": "Eadric", "role": "brother", "age": 17, "status": "free",
+      "strength": 6, "agility": 6, "intelligence": 5, "charisma": 5, "endurance": 6,
+      "loyalty": 8, "beauty": 5, "body_type": 5,
+      "notes": "Friend and slight rival. Follows the player's lead."
+    },
+    {
+      "id": "godric", "name": "Godric", "role": "companion", "age": 20, "status": "free",
+      "strength": 5, "agility": 6, "intelligence": 6, "charisma": 7, "endurance": 5,
+      "loyalty": 8, "beauty": 5, "body_type": 5,
+      "notes": "Merry-type. Talk, eyes, dock."
+    },
+    {
+      "id": "wulfric", "name": "Wulfric", "role": "companion", "age": 20, "status": "free",
+      "strength": 6, "agility": 6, "intelligence": 4, "charisma": 6, "endurance": 6,
+      "loyalty": 8, "beauty": 4, "body_type": 6,
+      "notes": "Pippin-type. Energy, poor judgment."
+    },
+    {
+      "id": "osric", "name": "Osric", "role": "companion", "age": 21, "status": "free",
+      "strength": 7, "agility": 5, "intelligence": 5, "charisma": 4, "endurance": 8,
+      "loyalty": 9, "beauty": 3, "body_type": 7,
+      "notes": "Samwise-type. Fish, wood, shed, watch."
+    }
+  ],
+  "hangers_on": [
+    {
+      "id": "cuthwin", "name": "Cuthwin", "role": "laborer", "age": 28, "status": "free",
+      "strength": 7, "agility": 5, "intelligence": 4, "charisma": 3, "endurance": 7,
+      "loyalty": 5, "beauty": 3, "body_type": 7
+    },
+    {
+      "id": "hilda", "name": "Hilda", "role": "laborer", "age": 24, "status": "free",
+      "strength": 5, "agility": 5, "intelligence": 5, "charisma": 4, "endurance": 6,
+      "loyalty": 5, "beauty": 4, "body_type": 4
+    },
+    {
+      "id": "aldred", "name": "Aldred", "role": "adventurer", "age": 26, "status": "free",
+      "strength": 6, "agility": 7, "intelligence": 5, "charisma": 6, "endurance": 6,
+      "loyalty": 4, "beauty": 5, "body_type": 5
+    },
+    {
+      "id": "saewyn", "name": "Saewyn", "role": "buyer", "age": 38, "status": "free",
+      "strength": 3, "agility": 4, "intelligence": 7, "charisma": 7, "endurance": 4,
+      "loyalty": 3, "beauty": 5, "body_type": 4,
+      "notes": "Optional romance hook. Not a settler on first visit."
+    }
+  ]
+}
